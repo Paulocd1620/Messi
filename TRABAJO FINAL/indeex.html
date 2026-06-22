@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionel Messi - Biografía</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lionel Messi</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#estadisticas">Estadísticas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Esta es una página sobre la vida y carrera de Lionel Messi</p>
+            <img src="Imagenes/Lionel Messi 1.jpg" alt="Lionel Messi">
+        </section>
+        <section id="biografia">
+            <article>
+                <h2>Biografía de Lionel Messi</h2>
+                <img src="Imagenes/040d6edb1df431aba2a1c888b366c209.jpg" alt="Messi de joven">
+                
+                <h3>¿Quién es Lionel Messi?</h3>
+                <p>
+                    Lionel Andrés Messi Cuccittini nació el 24 de junio de 1987 en Rosario, Argentina. 
+                    Es considerado uno de los mejores futbolistas de todos los tiempos. Ha jugado 
+                    principalmente en el FC Barcelona durante la mayor parte de su carrera profesional.
+                </p>
+
+                <h3>Sus Inicios</h3>
+                <p>
+                    Messi comenzó a jugar en equipos locales de Rosario a los 5 años. Su talento fue 
+                    notado por el Barcelona, que lo contrató cuando tenía 13 años. Se mudó a España 
+                    con su familia para perseguir su sueño de ser futbolista profesional.
+                </p>
+
+                <h3>Carrera en el Barcelona</h3>
+                <p>
+                    En Barcelona ganó varios títulos incluyendo La Liga y la Champions League. 
+                    Fue ganador del Balón de Oro varias veces. Su compañerismo  con otros jugadores 
+                    como Neymar y Luis Suarez creó uno de los mejores trios del fútbol (La MSN).
+                </p>
+
+                <h3>Actualidad</h3>
+                <p>
+                    En 2021 se mudó a París para jugar en el PSG, y despues a Inter Miami 
+                    en 2023. Sigue siendo un jugador importante en el fútbol mundial y es admirado 
+                    por millones de aficionados en todo el mundo.
+                </p>
+            </article>
+        </section>
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="galeria">
+                <div class="imagen">
+                    <img src="Imagenes/lionel messi 3.jpg" alt="Messi en Barcelona">
+                    <p>Barcelona</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/messi con argentina.jpg" alt="Messi con Argentina">
+                    <p>Argentina</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/Lionel Messi 4.jpg" alt="Copa del Mundo">
+                    <p>Campeón del Mundo</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/Lionel Messi 5.jpg" alt="Messi en PSG">
+                    <p>PSG</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/lionel-messi 6.jpg" alt="Messi regateando">
+                    <p>Regate</p>
+                </div>
+                <div class="imagen">
+                    <img src="Imagenes/Lionel Messi 7.jpg" alt="Messi celebrando">
+                    <p>Celebración</p>
+                </div>
+            </div>
+        </section>
+        <section id="estadisticas">
+            <h2>Estadísticas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Período</th>
+                        <th>Club</th>
+                        <th>Partidos</th>
+                        <th>Goles</th>
+                        <th>Asistencias</th>
+                    </tr>
+                </thead>
+                <body>
+                    <tr>
+                        <td>2004-2012</td>
+                        <td>Barcelona</td>
+                        <td>345</td>
+                        <td>211</td>
+                        <td>76</td>
+                    </tr>
+                    <tr>
+                        <td>2012-2017</td>
+                        <td>Barcelona</td>
+                        <td>240</td>
+                        <td>176</td>
+                        <td>62</td>
+                    </tr>
+                    <tr>
+                        <td>2017-2021</td>
+                        <td>Barcelona</td>
+                        <td>147</td>
+                        <td>130</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>2021-2023</td>
+                        <td>PSG</td>
+                        <td>72</td>
+                        <td>32</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>2023-Ahora</td>
+                        <td>Inter Miami</td>
+                        <td>50</td>
+                        <td>34</td>
+                        <td>15</td>
+                    </tr>
+                </body>
+            </table>
+        </section>
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <h2 id="miFormulario">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="respuesta"></div>
+        </section>
+    </main>
+</body>
+</html>
